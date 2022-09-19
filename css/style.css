@@ -1,0 +1,61 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.block{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 30px;
+    width: 300px;
+    min-height: 250px;
+}
+.blocks{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 30px;
+    width: 300px;
+}
+
+.addr{
+    display: flex;
+    flex-direction: column;
+}
+
+.addr > span, .geo {
+    margin-left: 10px;
+}
+
+.m{
+    margin-left: 20px!important;
+}
+
+.com{
+    display: flex;
+    flex-direction: column;
+}
+
+.com > span{
+    margin-left: 10px;
+}
+
+.btn {
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(112, 112, 235);
+    color: white;
+    border-radius: 7px;
+}
+
+.div{
+    height: 40px;
+}
+
+.center {
+    text-align: center;
+}
